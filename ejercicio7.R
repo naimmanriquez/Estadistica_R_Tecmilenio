@@ -80,7 +80,7 @@ ejerciciotimeseries
 
 autoplot(ejerciciotimeseries, xlab='Tiempo', ylab='Ventas') 
 
-fcast_ses <- ses(base, h = 3)
+fcast_ses <- ses(ejerciciotimeseries, h = 3)
 
 plot(fcast_ses)
 
